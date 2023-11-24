@@ -2,11 +2,13 @@ from PyQt5 import QtWidgets, uic
 import sys
 import pyqtgraph as pg
 import matplotlib.pyplot as plt
+import numpy as np
 
 class Ui(QtWidgets.QMainWindow):
     def __init__(self):
         super(Ui, self).__init__()
         uic.loadUi('1.ui', self)
+
         self.pushButton.clicked.connect(self.calculate)
         self.show()
 
