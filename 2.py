@@ -101,8 +101,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.label.setText(_translate("MainWindow", "X:"))
-        self.label_2.setText(_translate("MainWindow", "Y:"))
+        self.label.setText(_translate("MainWindow", "a:"))
+        self.label_2.setText(_translate("MainWindow", "b:"))
         self.pushButton.setText(_translate("MainWindow", "Линейная регрессия"))
         self.pushButton_2.setText(_translate("MainWindow", "Очистить"))
         self.pushButton_3.setText(_translate("MainWindow", "Выход"))
